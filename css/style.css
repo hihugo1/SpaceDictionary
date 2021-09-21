@@ -1,0 +1,219 @@
+:root {
+  --primary: #000;
+  --secondary: hsl(224, 100%, 50%);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+* :active, * :focus {
+  outline: none;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-family: 'Robot', Arial, sans-serif;
+  font-size: 2rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  padding: 1rem 3rem;
+}
+
+.logo a {
+  font-weight: bolder;
+  text-decoration: none;
+  color: var(--primary);
+}
+
+.logo a, .logo span {
+  font-size: 3rem;
+}
+
+.logo span {
+  color: var(--secondary);
+  font-weight: bold;
+}
+
+.links ul, .links a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  gap: 1rem;
+  color: var(--primary);
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-decoration: none;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  text-transform: capitalize;
+  list-style-type: none;
+  font-size: 2rem;
+}
+
+.links a:hover {
+  color: var(--secondary);
+}
+
+.home {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.home .caixa-text {
+  font-size: 3.2rem;
+  width: 400px;
+  word-break: break-word;
+}
+
+.home .astro {
+  max-width: 500px;
+  width: 100%;
+}
+
+.seta {
+  margin: 60px 0;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.seta > img {
+  width: 100px;
+}
+
+.planets {
+  position: relative;
+  top: 100px;
+  height: 100vh;
+}
+
+.planets > h3 {
+  position: relative;
+  bottom: 100px;
+  font-size: 7rem;
+  text-align: center;
+}
+
+.planets .planets-terra {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  margin: 0 5rem;
+  gap: 30px;
+}
+
+.planets .planets-marte {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  margin: 10rem 5rem;
+  gap: 30px;
+}
+
+.planets .planets-jupiter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  margin: 0 5rem;
+  gap: 30px;
+}
+
+.planets div > h3 {
+  font-size: 4.5rem;
+}
+
+.planets div > p, .planets div > a {
+  font-size: 2.6rem;
+}
+
+.planets div > a {
+  position: relative;
+  background: #000;
+  top: 35px;
+  color: white;
+  padding: 2rem;
+  border-radius: 30px;
+  text-decoration: none;
+}
+
+.planets div > a > a :focus {
+  padding: 10px;
+}
+
+.planets img {
+  width: 25%;
+  border: 10px solid #000;
+  border-radius: 50%;
+}
+
+footer {
+  background-color: var(--primary);
+  position: relative;
+  top: 100rem;
+}
+
+footer .desenvolvido {
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+  -ms-flex-line-pack: distribute;
+      align-content: space-around;
+  font-size: 3rem;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/*# sourceMappingURL=style.css.map */
